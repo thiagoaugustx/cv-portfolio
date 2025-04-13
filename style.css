@@ -124,8 +124,19 @@
     margin-top: -50%;
     font-size: 20px;
     font-weight: 600;
+ 
+  }
+
+  .nav-mobile a:hover{
+    background: linear-gradient(90deg, #5eff50, #1863DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 70px;;
+    transition: 0.5s;
+    font-weight: 700;
 
   }
+
   .nav-mobile.active {
     display: flex;
     margin-top: 100px !important;
@@ -204,7 +215,6 @@
 
   #minha-foto img{
     display: block;
-    max-width: 100%;
     height: auto;
     background: transparent;
   }
@@ -216,18 +226,20 @@
   }
 
   /* RESPONSIVO BANNER  */
-  @media (max-width: 768px) {
+  @media (max-width: 981px) {
    #banner-principal{
     width: 100% !important;
-    display:block;
-    margin-top: 140px !important;
-
+    display: flex;
+    margin: 0 auto !important;
+    overflow-x: hidden;
     }
+
+    
 
     #titulo-funcao{
     width: 70%;
     justify-content: left;
-    margin-left: 20px;
+    margin-left: 5vh !important;
     }
 
     #titulo-funcao h1{
@@ -262,13 +274,14 @@
     }
 
     #minha-foto{
-        position: relative;
-        width: 650px;
-        margin-top: -230px;
-        margin-left: -30px;
-        background: transparent !important;
         z-index: 1;
-        }
+        position: relative !important;
+    }
+
+    #minha-foto img{
+        width: 500px !important;
+        margin-left: -160px !important;
+    }
 
 
 
@@ -332,7 +345,7 @@
     color: #fff;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 981px) {
     #sobre-mim{
         width: 100% !important;
         display: block;
@@ -345,17 +358,19 @@
         width: 100% !important;
         text-align: left;
         justify-content: center;
+        
       }
     
       #quem-sou-eu h2{
         background: linear-gradient(to right, #89d85b 0%, #1863DC 100% 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 40px;
+        font-size: 5vh;
         padding: 30px;
         width: 100% !important;
-        margin-left: 1px;
         margin-top:85px;
+        margin-left: 20% !important;
+        
       }
     
       #quem-sou-eu-txt{
@@ -366,7 +381,7 @@
         margin-left: 10%;
         }
       #quem-sou-eu-txt p{
-        font-size: 12px;
+        font-size: 1.5vh;
       }
     
       #quem-sou-eu-txt #button-portfolio{
@@ -469,7 +484,7 @@
 
   /*RESPONSIVIDADE DO PORFÓLIO */
 
-  @media (max-width: 768px){
+  @media (max-width: 981px){
     #portfolio{
         width: 100% !important;
         color: #fff;
@@ -484,7 +499,7 @@
     }
     
       #portfolio h2{
-        font-size:15px; 
+        font-size: 2.5vh; 
         font-weight: 400;
         height: auto;
         align-items: center;
@@ -508,8 +523,8 @@
     
       #boxs{ 
         border: solid 1px #ffffff56;
-        width: 300px;
-        height: 220px;
+        width: 45vh;
+        height: 30vh;
         border-radius: 20px;
         margin: 0 auto;
         display: flex;
