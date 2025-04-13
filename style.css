@@ -145,7 +145,8 @@
     width: 1440px;
     margin: 0 auto !important;
     margin-top: 70px !important;
-    
+    overflow-x: hidden;
+
   }
 
   #titulo-funcao{
