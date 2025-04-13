@@ -12,7 +12,7 @@
   }
 
   hr {
-    border:  1px solid #282833;
+    border:  1px solid #010d14;
     width: 100%;
   }
   
@@ -563,7 +563,7 @@
   /* FIM DO PORFÓLIO */
 
 
-    /* MINHAS FORMAÇÕES */
+    /* FORMAÇÕES E IDIOMAS */
 
   #formacoes{
     height: 90vh;
@@ -664,8 +664,68 @@
         margin-top: 5px;
       }
       
+      @media (max-width:981px){
+        #formacoes{
+            width: 100% !important;
+            display: block !important;
+            justify-content: center !important;
+            margin: 0 auto !important;
+            align-items: center !important;
+            
+        }
 
-    
+        #titulo-formacoes{
+            width: 90% !important;
+        }
+
+        #titulo-formacoes h2{
+            font-size: 5vh;
+            margin-left: 10%;
+        }
+
+        #cards-formacoes{
+            padding: 2vh;
+        }
+        .formation-card{
+            width: 48vh !important;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto !important;
+            margin-bottom: 2vh !important;
+        }
+
+        .formation-card p{
+            font-size: 1.5vh;
+        }
+
+        #idiomas{
+            padding: 30px;
+            width: 48vh !important;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto !important;
+            margin-bottom: 2vh !important;
+        }
+
+        .idioma{
+
+        }
+
+        .idioma-nome{
+
+        }
+
+        .barra{
+            width: 40vh;
+        }
+
+
+      }
+
+
+
+      /* FIM DAS FORMAÇÕES E IDIOMAS */
+
 
       #contato{
         height: 110vh;
