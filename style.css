@@ -7,6 +7,7 @@
   
   body {
     background-color: #02111B;
+    overflow-x: hidden;
 
   }
 
@@ -114,6 +115,10 @@
 
   .nav-mobile ul{
     text-align: center !important;
+    margin-top: -50%;
+    font-size: 20px;
+    font-weight: 600;
+
   }
   .nav-mobile.active {
     display: flex;
@@ -224,15 +229,23 @@
     }
 
     #titulo-funcao p{
-        width: 76%;
-        font-size: 8px;
+        width: 70%;
+        font-size: 10px;
         z-index: 2;
     }
 
     #button-conheca{
         z-index: 9999 !important;
+        position: absolute;
+        background-color: #02111b8c;
     }
+    #button-conheca:hover{
+        -webkit-box-shadow: 0px 0px 31px -5px rgba(17,255,0,1);
+        -moz-box-shadow: 0px 0px 31px -5px rgba(17,255,0,1);
+        box-shadow: 0px 0px 31px -5px rgba(17,255,0,1);
+        
 
+    }
     #button-conheca p{
         
     }
@@ -244,7 +257,7 @@
     #minha-foto{
         position: relative;
         width: 650px;
-        margin-top: -250px;
+        margin-top: -230px;
         margin-left: -30px;
         background: transparent !important;
         z-index: 1;
@@ -335,7 +348,7 @@
         padding: 30px;
         width: 100% !important;
         margin-left: 1px;
-        margin-top: 90px;
+        margin-top:85px;
       }
     
       #quem-sou-eu-txt{
