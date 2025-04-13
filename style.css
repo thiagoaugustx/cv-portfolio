@@ -194,7 +194,7 @@
     border-radius: 125px;
     text-align: center;
     margin-top: 30px;
-    border: outset 1px #5eff50;
+    border:  1px outset #48d43f;
 
 
 }
@@ -204,6 +204,8 @@
     transition: 1s  ;
     scale: 1.1;
     color: #fff;
+    border:  1px outset #1863DC;
+
 
 }
 
@@ -343,6 +345,8 @@
     transition: 1s  ;
     scale: 1.1;
     color: #fff;
+    border:  1px outset #1863DC;
+
   }
 
   @media (max-width: 981px) {
@@ -559,14 +563,112 @@
   /* FIM DO PORFÓLIO */
 
 
-  #contato{
-    height: 100vh;
-  }
+    /* MINHAS FORMAÇÕES */
 
   #formacoes{
     height: 100vh;
+    display: flex;
+    margin-top: 130px !important;
   }
 
+  #titulo-formacoes{
+    width: 50%;
+    font-size: 55px;
+    text-align: left;
+    line-height: 1.1;
+    justify-content: center;
+    display: flex;
+    margin-top: 20vh;
+  }
+
+  #titulo-formacoes h2{
+    background: linear-gradient(to right, #89d85b 0%, #1863DC 100% 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 150px;  }
+
+  #card-formacoes{
+    width: 50%;
+  }
+
+  .formation-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #1863DC;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    width: 600px;
+  }
+  .formation-card:hover {
+    transform: translateY(-5px);
+    border-color: #5eff50;
+  }
+  .formation-card h3 {
+    color: #5eff50;
+  }
+  .formation-card p {
+    color: #ccc;
+  }
+
+    #idiomas {
+        margin-left: 1vh;
+      }
+      
+      #idiomas h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #ffffff;
+      }
+      
+      .idioma {
+        margin-bottom: 5px;
+      }
+      
+      .idioma-nome {
+        font-weight: bold;
+        font-size: 18px;
+        display: block;
+        margin-bottom: 5px;
+        color: #ffffff;
+      }
+      
+      .barra {
+        background-color: #dddddd1f;
+        height: 10px;
+        width: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      
+      .nivel {
+        height: 100%;
+        border-radius: 5px;
+      }
+      
+      .fluente {
+        width: 100%;
+        background-color: #4CAF50;
+      }
+      
+      .basico {
+        width: 30%;
+        background-color: #c08a1593;
+      }
+      
+      .descricao {
+        font-size: 14px;
+        color: #666;
+        margin-top: 5px;
+      }
+      
+
+    
+
+      #contato{
+        height: 110vh;
+      }
+      
   #rodape{
     height: 30vh;
   }

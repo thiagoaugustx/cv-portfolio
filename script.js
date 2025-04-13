@@ -26,6 +26,16 @@ function toggleMenu() {
   }
 }
 
+const navLinks = document.querySelectorAll('.nav-link');
+const navMenu = document.querySelector('.navbar-menu');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navMenu.classList.remove('show'); // ou toggle invertido
+  });
+});
+
+
 function closeMenu() {
   const nav = document.getElementById('navMobile');
   nav.classList.remove('active');
