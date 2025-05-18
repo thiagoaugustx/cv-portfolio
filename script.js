@@ -41,3 +41,5 @@ function closeMenu() {
   nav.classList.remove('active');
   nav.style.display = 'none';
 }
+
+
