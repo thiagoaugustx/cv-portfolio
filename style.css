@@ -91,7 +91,6 @@
   flex-direction: column;
   background-color: #444;
   padding: 10px 20px;
-  width: 768px !important;
 }
 
 .nav-mobile ul {
@@ -111,6 +110,10 @@
 
 /* Responsivo */
 @media (max-width: 768px) {
+
+  *{
+    background-color: #17983e;
+  }
   .nav-desktop {
     display: none;
   }
@@ -550,7 +553,7 @@ width: 100%;
     
       #boxs{ 
         border: outset 1px #5eff50;
-        width: 45vh;
+        width: 43vh;
         height: 30vh;
         border-radius: 20px;
         margin: 0 auto;
@@ -600,7 +603,7 @@ width: 100%;
     display: flex;
     margin-top: 17vh !important;
     max-width: 1440px;
-width: 100%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -721,7 +724,7 @@ width: 100%;
             padding: 2vh;
         }
         .formation-card{
-            width: 48vh !important;
+            width: 42vh !important;
             align-items: center;
             justify-content: center;
             margin: 0 auto !important;
