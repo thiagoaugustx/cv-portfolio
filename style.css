@@ -109,7 +109,7 @@
 }
 
 /* Responsivo */
-@media (max-width: 991.98px) {
+@media (max-width: 768px) {
   .nav-desktop {
     display: none;
   }
@@ -237,7 +237,7 @@
   }
 
   /* RESPONSIVO BANNER  */
-  @media (max-width: 991.98px) {
+  @media (max-width: 768px) {
    #banner-principal{
     width: 100% !important;
     display: flex;
@@ -360,7 +360,7 @@ width: 100%;
 
   }
 
-  @media (max-width: 991.98px) {
+  @media (max-width: 768px) {
     #sobre-mim{
         width: 100% !important;
         display: block;
@@ -513,7 +513,7 @@ width: 100%;
 
   /*RESPONSIVIDADE DO PORFÓLIO */
 
-  @media (max-width: 991.98px){
+  @media (max-width: 768px){
     #portfolio{
         width: 100% !important;
         color: #fff;
@@ -701,7 +701,7 @@ width: 100%;
         margin-top: 5px;
       }
       
-      @media (max-width: 991.98px){
+      @media (max-width: 768px){
         #formacoes{
             width: 100% !important;
             display: block !important;
@@ -904,7 +904,7 @@ label{
 box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
 }
 
-@media (max-width: 991.98px){
+@media (max-width: 768px){
   #formulario{
     width: 100% !important;
   }
@@ -1003,7 +1003,7 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
     opacity: 1;
   }
   
-@media (max-width: 991.98px){
+@media (max-width: 768px){
 
   #rodape h3{
     font-size: 16px;
@@ -1072,7 +1072,7 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
   padding: 10px;
   margin-top: ;
 }
-@media (max-width: 991.98px){
+@media (max-width: 768px){
   .meu-ru {
     font-size: 12px;
     width: 250px;
