@@ -743,7 +743,6 @@
             width: 40vh;
         }
 
-
       }
 
 
@@ -812,12 +811,12 @@ label{
 }
 
 .container-form{
-  background-color: #00000049;
-  border-radius: 10px;
+  background-color: #ffffff00;
+  border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
   width: 100%;
   overflow: hidden;
-  padding: 20px;
+  padding: 30px;
   display: block;
 }
 
@@ -904,13 +903,15 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
   }
 
   .txt-formulario{
-    width: 100%;
+    width: 180%;
+    margin-left: -70px;
+    margin-top: 30px;
   }
 
   .txt-formulario h1{
-    font-size:27px;
-    line-height: 30px;
-    margin-top: 40px;
+    font-size:25px;
+    line-height: 25px;
+
 
   }
 
@@ -919,8 +920,10 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
   }
 
   .estrutura-formulario{
-    width: 100% !important;
-    margin-top: -70px;
+    width: 180% !important;
+    margin-left: -10.5vh;
+    margin-top: -55px;
+
   }
 
   .container-form{
@@ -946,14 +949,69 @@ visibility: visible;    font-size: 15px;
 
 
 
-
+/*RODAPÉ*/
 
   #rodape{
     height: 30vh;
   }
 
+  #rodape h3{
+    text-align: center;
+  background: linear-gradient(to right, #89d85b 0%, #1863DC 100% 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    margin-top: 30px;
+  }
 
+  .logos-redes{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
 
+  #redes{
+    padding: 20px;
+    background: linear-gradient(to right, #89d85b 0%, #1863dc 100% 100%);
+    border-radius: 20px;
+    margin: 50px;
+    opacity: 0.3;
+  }
+
+  #redes i{
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+  }
+
+  #redes:hover{
+    scale: 1.2;
+    transition: 1s;
+    opacity: 1;
+  }
+  
+@media (max-width: 991.98px){
+
+  #rodape h3{
+    font-size: 16px;
+  }
+
+  #redes i{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    color: #fff;
+  }
+
+ #redes{
+    padding: 20px;
+    margin:15px;
+    opacity: 0.3;
+  }
+}
+
+/*FIM DO RODAPÉ*/
 
 
 
@@ -1000,8 +1058,18 @@ visibility: visible;    font-size: 15px;
   font-size: 15px;
   color: #ffffff;
   padding: 10px;
+  margin-top: ;
 }
-
+@media (max-width: 991.98px){
+  .meu-ru {
+    font-size: 12px;
+    width: 250px;
+    margin-top:;
+    margin-left:20px;
+    opacity: 0.5;
+    z-index: -1;
+  }
+}
 
 
 
