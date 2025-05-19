@@ -17,6 +17,11 @@
     width: 100%;
   }
   
+  #section-formulario{
+    margin-top: 15vh;
+  }
+
+
   a{
     text-decoration: none;
     color: #fff;
@@ -104,7 +109,7 @@
 }
 
 /* Responsivo */
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   .nav-desktop {
     display: none;
   }
@@ -232,7 +237,7 @@
   }
 
   /* RESPONSIVO BANNER  */
- @media (max-width: 768px){
+  @media (max-width: 991.98px) {
    #banner-principal{
     width: 100% !important;
     display: flex;
@@ -355,7 +360,7 @@ width: 100%;
 
   }
 
- @media (max-width: 768px){
+  @media (max-width: 991.98px) {
     #sobre-mim{
         width: 100% !important;
         display: block;
@@ -508,7 +513,7 @@ width: 100%;
 
   /*RESPONSIVIDADE DO PORFÓLIO */
 
- @media (max-width: 768px){
+  @media (max-width: 991.98px){
     #portfolio{
         width: 100% !important;
         color: #fff;
@@ -696,7 +701,7 @@ width: 100%;
         margin-top: 5px;
       }
       
-      @media (max-width: 768px){
+      @media (max-width: 991.98px){
         #formacoes{
             width: 100% !important;
             display: block !important;
@@ -899,39 +904,38 @@ label{
 box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
 }
 
-@media (max-width: 768px){
+@media (max-width: 991.98px){
   #formulario{
     width: 100% !important;
   }
 
   .formulario{
-    width: 100% !important;
     display: block !important;
     flex-direction: column !important;
+    margin-top: -25vh !important;
+
   }
 
   .txt-formulario{
-    width: 180%;
-    margin-left: -70px;
-    margin-top: 30px;
+    width: 50%;
+    margin-left: -10vh;
+
   }
 
   .txt-formulario h1{
     font-size:25px;
     line-height: 25px;
-    width: 100% !;
-
+    width: 100%;
   }
 
   .txt-formulario p{
-
+    width: 100%;
   }
 
   .estrutura-formulario{
-    width: 100% !important;
-    margin-left: -1vh;
-    margin-top: -55px;
-
+    width: 45% !important;
+    margin-left: -11.5%;
+    margin-top: -10vh;
   }
 
   .container-form{
@@ -944,7 +948,7 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
   } 
 
   #form-abaixo p{
-visibility: visible;    font-size: 15px;
+  visibility: visible;    font-size: 15px;
   }
 
   #form-ao-lado p{
@@ -999,7 +1003,7 @@ visibility: visible;    font-size: 15px;
     opacity: 1;
   }
   
-@media (max-width: 768px){
+@media (max-width: 991.98px){
 
   #rodape h3{
     font-size: 16px;
@@ -1068,7 +1072,7 @@ visibility: visible;    font-size: 15px;
   padding: 10px;
   margin-top: ;
 }
-@media (max-width: 768px){
+@media (max-width: 991.98px){
   .meu-ru {
     font-size: 12px;
     width: 250px;
