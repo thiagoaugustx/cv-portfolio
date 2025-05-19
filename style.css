@@ -1124,11 +1124,11 @@ html, body {
 
 /* Correção: Precisei fazer essas alterações pois estava bugando o resposivo na versão mobile e não estava conseguindo resolver sem puxar para baixo. Data da atualização: 19/05 */
 
-@media (max-width: 991.98px) {
+@media (max-width: 991.98px)  {
   #minha-foto img {
     width: 450px !important;
     max-width: 500px;
-    margin-left: -165px !important;
+    margin-left: -22vh !important;
     margin-right: auto !important;
     margin-top: 50px;
   }
@@ -1136,9 +1136,10 @@ html, body {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   #banner-principal {
-    flex-direction: column;
+    flex-direction: grid;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
   }
 
   #titulo-funcao, #minha-foto {
