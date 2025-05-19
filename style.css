@@ -17,11 +17,6 @@
     width: 100%;
   }
   
-  #section-formulario{
-    margin-top: 15vh;
-  }
-
-
   a{
     text-decoration: none;
     color: #fff;
@@ -110,11 +105,6 @@
 
 /* Responsivo */
 @media (max-width: 768px) {
-
-  *{
-    background-color: #1b4bb3;
-    width: 100% !important;
-  }
   .nav-desktop {
     display: none;
   }
@@ -171,6 +161,7 @@
     margin: 0 auto !important;
     margin-top: 70px !important;
     overflow-x: hidden;
+
   }
 
   #titulo-funcao{
@@ -241,7 +232,7 @@
   }
 
   /* RESPONSIVO BANNER  */
-  @media (max-width: 768px) {
+ @media (max-width: 768px){
    #banner-principal{
     width: 100% !important;
     display: flex;
@@ -314,6 +305,7 @@
     height: 100vh;
     max-width: 1440px;
 width: 100%;
+
     margin: 0 auto;
     display: flex;
     justify-content: space-between; 
@@ -363,7 +355,7 @@ width: 100%;
 
   }
 
-  @media (max-width: 768px) {
+ @media (max-width: 768px){
     #sobre-mim{
         width: 100% !important;
         display: block;
@@ -439,6 +431,7 @@ width: 100%;
     z-index: 1;
     margin: 0 auto;
     width: 100%;
+    
 }
 
   #portfolio h2{
@@ -515,7 +508,7 @@ width: 100%;
 
   /*RESPONSIVIDADE DO PORFÓLIO */
 
-  @media (max-width: 768px){
+ @media (max-width: 768px){
     #portfolio{
         width: 100% !important;
         color: #fff;
@@ -554,7 +547,7 @@ width: 100%;
     
       #boxs{ 
         border: outset 1px #5eff50;
-        width: 43vh;
+        width: 45vh;
         height: 30vh;
         border-radius: 20px;
         margin: 0 auto;
@@ -604,7 +597,8 @@ width: 100%;
     display: flex;
     margin-top: 17vh !important;
     max-width: 1440px;
-    width: 100%;
+width: 100%;
+
     margin: 0 auto;
   }
 
@@ -725,7 +719,7 @@ width: 100%;
             padding: 2vh;
         }
         .formation-card{
-            width: 42vh !important;
+            width: 48vh !important;
             align-items: center;
             justify-content: center;
             margin: 0 auto !important;
@@ -911,33 +905,33 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
   }
 
   .formulario{
+    width: 100% !important;
     display: block !important;
     flex-direction: column !important;
-    margin-top: -25vh !important;
-    width: 100% !important;
-
   }
 
   .txt-formulario{
-    width: 50%;
-    margin-left: -10vh;
-
+    width: 180%;
+    margin-left: -70px;
+    margin-top: 30px;
   }
 
   .txt-formulario h1{
     font-size:25px;
     line-height: 25px;
-    width: 100%;
+    width: 100% !;
+
   }
 
   .txt-formulario p{
-    width: 100%;
+
   }
 
   .estrutura-formulario{
-    width: 45% !important;
-    margin-left: -11.5%;
-    margin-top: -10vh;
+    width: 100% !important;
+    margin-left: -1vh;
+    margin-top: -55px;
+
   }
 
   .container-form{
@@ -950,7 +944,7 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
   } 
 
   #form-abaixo p{
-  visibility: visible;    font-size: 15px;
+visibility: visible;    font-size: 15px;
   }
 
   #form-ao-lado p{
@@ -967,7 +961,6 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
 
   #rodape{
     height: 30vh;
-    
   }
 
   #rodape h3{
