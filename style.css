@@ -113,6 +113,7 @@
 
   *{
     background-color: #17983e;
+    width: 100% !important;
   }
   .nav-desktop {
     display: none;
