@@ -320,7 +320,7 @@
     color: #fff;
     height: 100vh;
     max-width: 1440px;
-width: 100%;
+  width: 100%;
 
     margin: 0 auto;
     display: flex;
@@ -975,8 +975,9 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
 /*RODAPÉ*/
 
   #rodape{
-    height: 30vh;
-  }
+  height: auto;
+  min-height: 35vh;
+  overflow: hidden;  }
 
   #rodape h3{
     text-align: center;
@@ -1091,8 +1092,14 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
     margin-left:20px;
     opacity: 0.5;
     z-index: -1;
+    top: auto;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0.5;
+    z-index: 1;
   }
 }
+
 
 
 
@@ -1165,3 +1172,5 @@ html, body {
     max-width: 450px;
   }
 }
+
+
