@@ -104,7 +104,7 @@
 }
 
 /* Responsivo */
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   .nav-desktop {
     display: none;
   }
@@ -232,7 +232,7 @@
   }
 
   /* RESPONSIVO BANNER  */
-  @media (max-width: 981px) {
+ @media (max-width: 991.98px){
    #banner-principal{
     width: 100% !important;
     display: flex;
@@ -355,7 +355,7 @@ width: 100%;
 
   }
 
-  @media (max-width: 981px) {
+ @media (max-width: 991.98px){
     #sobre-mim{
         width: 100% !important;
         display: block;
@@ -508,7 +508,7 @@ width: 100%;
 
   /*RESPONSIVIDADE DO PORFÓLIO */
 
-  @media (max-width: 981px){
+ @media (max-width: 991.98px){
     #portfolio{
         width: 100% !important;
         color: #fff;
@@ -696,7 +696,7 @@ width: 100%;
         margin-top: 5px;
       }
       
-      @media (max-width:981px){
+      @media (max-width: 991.98px){
         #formacoes{
             width: 100% !important;
             display: block !important;
