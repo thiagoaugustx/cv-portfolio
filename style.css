@@ -117,6 +117,7 @@
     width: 100% !important;
     margin-left: 0px !important;
     top: 0px !important;
+    flex-direction: row-reverse;
   }
 
   .nav-mobile ul{
