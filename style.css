@@ -1106,23 +1106,24 @@ box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
   } 
 
 
-/* Correção: prevenir overflow horizontal */
 html, body {
   max-width: 100%;
   overflow-x: hidden !important;
 }
 
-/* Correção: imagem do banner no mobile */
+
+/* Correção: Precisei fazer essas alterações pois estava bugando o resposivo na versão mobile e não estava conseguindo resolver sem puxar para baixo. Data da atualização: 19/05 */
+
 @media (max-width: 991.98px) {
   #minha-foto img {
-    width: 100% !important;
+    width: 400px !important;
     max-width: 400px;
-    margin-left: auto !important;
+    margin-left: -145px !important;
     margin-right: auto !important;
+    margin-top: 50px;
   }
 }
 
-/* Correção: formulário e cards para tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
   #banner-principal {
     flex-direction: column;
